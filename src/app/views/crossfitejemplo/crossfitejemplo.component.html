@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CrossFit Gym</title>
+  <!-- CoreUI CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/@coreui/coreui@4.1.0/dist/css/coreui.min.css" rel="stylesheet"> -->
+  <!-- Custom Styles -->
+  <!-- <link href="assets/styles.css" rel="stylesheet"> -->
+</head>
+<body>
+  <!-- Header -->
+  <header class="c-navbar c-navbar-dark bg-dark">
+    <div class="container">
+      <a class="c-navbar-brand font-weight-bold" href="#">CrossFit Gym</a>
+      <ul class="c-navbar-nav ml-auto">
+        <li class="c-nav-item"><a class="c-nav-link text-white" href="#inicio">Inicio</a></li>
+        <li class="c-nav-item"><a class="c-nav-link text-white" href="#programas">Programas</a></li>
+        <li class="c-nav-item"><a class="c-nav-link text-white" href="#testimonios">Testimonios</a></li>
+        <li class="c-nav-item"><a class="c-nav-link text-white" href="#contacto">Contacto</a></li>
+      </ul>
+      <a href="#contacto" class="btn btn-primary ml-3">Unirse Ahora</a>
+    </div>
+  </header>
+
+  <!-- Sección Hero -->
+  <section id="inicio" class="hero-section">
+    <div class="text-center text-white">
+      <h1>Transforma tu Cuerpo, Desafía tus Límites</h1>
+      <a href="#programas" class="btn btn-primary btn-lg mt-4">Ver Programas</a>
+    </div>
+  </section>
+
+  <!-- Sección de Programas -->
+  <section id="programas" class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title display-4">Nuestros Programas</h2>
+      <p class="lead mb-5">Ofrecemos una variedad de entrenamientos diseñados para todos los niveles, desde principiantes hasta atletas experimentados.</p>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="card service-card border-0 shadow">
+            <div class="card-body">
+              <div class="c-icon c-icon-3xl text-primary mb-3">
+                <i class="cil-bullhorn"></i>
+              </div>
+              <h5 class="card-title font-weight-bold">Entrenamiento Funcional</h5>
+              <p class="card-text">Ejercicios de alta intensidad que combinan fuerza, resistencia y agilidad para mejorar tu rendimiento general.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card service-card border-0 shadow">
+            <div class="card-body">
+              <div class="c-icon c-icon-3xl text-primary mb-3">
+                <i class="cil-speedometer"></i>
+              </div>
+              <h5 class="card-title font-weight-bold">CrossFit Clásico</h5>
+              <p class="card-text">Entrenamientos diarios con movimientos funcionales variados y realizados a alta intensidad.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="card service-card border-0 shadow">
+            <div class="card-body">
+              <div class="c-icon c-icon-3xl text-primary mb-3">
+                <i class="cil-weightlifitng"></i>
+              </div>
+              <h5 class="card-title font-weight-bold">Levantamiento de Pesas</h5>
+              <p class="card-text">Programa especializado en mejorar la técnica y fuerza en levantamientos olímpicos.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Testimonios -->
+  <section id="testimonios" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="section-title display-4">Lo Que Dicen Nuestros Miembros</h2>
+      <div class="row">
+        <div class="col-lg-4 mb-4">
+          <div class="testimonial-card shadow">
+            <p>"El ambiente es increíble y los entrenadores realmente te motivan a dar lo mejor. He visto cambios significativos en mi salud y fuerza."</p>
+            <h5 class="font-weight-bold">Pedro García</h5>
+            <p class="text-muted">Miembro desde 2022</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="testimonial-card shadow">
+            <p>"Nunca pensé que me enamoraría del entrenamiento funcional. Cada día es un desafío nuevo y siempre salgo con una sonrisa."</p>
+            <h5 class="font-weight-bold">Ana López</h5>
+            <p class="text-muted">Miembro desde 2021</p>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-4">
+          <div class="testimonial-card shadow">
+            <p>"CrossFit Gym cambió mi vida. No solo soy más fuerte, sino que también he mejorado mi confianza y disciplina."</p>
+            <h5 class="font-weight-bold">Carlos Martínez</h5>
+            <p class="text-muted">Miembro desde 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Contacto -->
+  <section id="contacto" class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h2 class="section-title display-4">Contáctanos</h2>
+      <p class="lead mb-5">Únete a nuestra comunidad y empieza tu transformación hoy mismo. Llena el formulario y te contactaremos para más detalles.</p>
+      <form class="w-75 mx-auto">
+        <div class="form-group">
+          <input type="text" class="form-control form-control-lg mb-3" placeholder="Nombre Completo">
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control form-control-lg mb-3" placeholder="Correo Electrónico">
+        </div>
+        <div class="form-group">
+          <textarea rows="5" class="form-control form-control-lg mb-3" placeholder="Tu Mensaje"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>&copy; 2024 CrossFit Gym. Todos los derechos reservados.</p>
+      <div class="mt-3">
+        <a href="#" class="text-white mx-2">Facebook</a>
+        <a href="#" class="text-white mx-2">Instagram</a>
+        <a href="#" class="text-white mx-2">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- CoreUI JS -->
+  <script src="https://cdn.jsdelivr.net/npm/@coreui/coreui@4.1.0/dist/js/coreui.bundle.min.js"></script>
+</body>
+</html>
+
+
